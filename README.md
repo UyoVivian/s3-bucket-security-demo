@@ -1,3 +1,9 @@
+![publicly accessible url](https://github.com/user-attachments/assets/7a723797-8021-460c-9932-33b1ade2024e)
+![IAM user credentials](https://github.com/user-attachments/assets/0fb73c32-56fb-4ac1-8669-407f361e166b)
+![S3 bucket public access - Unblocked](https://github.com/user-attachments/assets/b504a512-82ba-4cf7-a355-19610e07b107)
+![Public S3 bucket policy](https://github.com/user-attachments/assets/031ea929-5ac7-4bce-93ba-15b92e8083ed)
+![sensitive file](https://github.com/user-attachments/assets/5bc7abfb-2da3-464d-aa3f-04d962b43ec0)
+![S3 bucket](https://github.com/user-attachments/assets/03f98c9f-6feb-4664-9d9f-1af3865791bd)
 # s3-bucket-security-demo
 AWS S3 and IAM security project
 

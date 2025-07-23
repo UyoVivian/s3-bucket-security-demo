@@ -43,4 +43,4 @@ Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security
 }
 
 
-
+- Result: Anyone with the object URL could download the file

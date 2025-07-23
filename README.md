@@ -1,12 +1,12 @@
 # s3-bucket-security-demo
 AWS S3 and IAM security project
 
-## 📌 Objective
+##  Objective
 Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security risks, and how to properly secure them using AWS best practices.
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - AWS Console
 - S3
 - IAM
@@ -14,18 +14,18 @@ Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security
 
 ---
 
-## 🧪 Steps Performed
+##  Steps Performed
 
-### ✅ 1. Created a New S3 Bucket
+###  1. Created a New S3 Bucket
 - **Bucket name:** `vivian-cloudsec-demo`
 - Region and settings set to default
 - Purpose: simulate a real-world use case
 
-### ✅ 2. Uploaded a Sample File
+###  2. Uploaded a Sample File
 - File uploaded: `sensitive.txt`
 - Purpose: simulate a sensitive asset (e.g., credentials or personal info)
 
-### ✅ 3. Simulated Misconfiguration (Public Access)
+###  3. Simulated Misconfiguration (Public Access)
 - **Disabled block public access** on the bucket
 - Applied the following **public-read bucket policy**:
 ```json
@@ -41,3 +41,5 @@ Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security
     }
   ]
 }
+
+## Result: Anyone with the object URL could download the file

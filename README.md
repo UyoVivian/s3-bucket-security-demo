@@ -45,7 +45,7 @@ Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security
 
 - Result: Anyone with the object URL could download the file
 
-4. Created IAM User
+###  4. Created IAM User
 IAM user created: junior-analyst
 
 Attached full S3 access policy using this JSON:
@@ -65,7 +65,7 @@ Edit
 }
 This user could now manage and interact with all S3 buckets and objects
 
-5. Secured the Bucket
+###  5. Secured the Bucket
 A. Removed Misconfiguration
 
 Deleted the public bucket policy
@@ -98,7 +98,7 @@ Edit
 }
 
 
-6. Enabled S3 Server Access Logging
+###  6. Enabled S3 Server Access Logging
 Created a new bucket: vivian-logs
 
 Configured vivian-cloudsec-demo to send logs to vivian-logs

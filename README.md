@@ -1,9 +1,4 @@
-![publicly accessible url](https://github.com/user-attachments/assets/7a723797-8021-460c-9932-33b1ade2024e)
-![IAM user credentials](https://github.com/user-attachments/assets/0fb73c32-56fb-4ac1-8669-407f361e166b)
-![S3 bucket public access - Unblocked](https://github.com/user-attachments/assets/b504a512-82ba-4cf7-a355-19610e07b107)
-![Public S3 bucket policy](https://github.com/user-attachments/assets/031ea929-5ac7-4bce-93ba-15b92e8083ed)
-![sensitive file](https://github.com/user-attachments/assets/5bc7abfb-2da3-464d-aa3f-04d962b43ec0)
-![S3 bucket](https://github.com/user-attachments/assets/03f98c9f-6feb-4664-9d9f-1af3865791bd)
+
 # s3-bucket-security-demo
 AWS S3 and IAM security project
 
@@ -117,3 +112,17 @@ How public access to S3 objects exposes sensitive data
 How to use IAM and bucket policies to enforce least privilege
 
 How to enable logging for auditing and traceability
+
+
+## See Screenshots below
+
+![S3 bucket](https://github.com/user-attachments/assets/03f98c9f-6feb-4664-9d9f-1af3865791bd)
+![sensitive file](https://github.com/user-attachments/assets/5bc7abfb-2da3-464d-aa3f-04d962b43ec0)
+![Public S3 bucket policy](https://github.com/user-attachments/assets/031ea929-5ac7-4bce-93ba-15b92e8083ed)
+![S3 bucket public access - Unblocked](https://github.com/user-attachments/assets/b504a512-82ba-4cf7-a355-19610e07b107)
+![publicly accessible url](https://github.com/user-attachments/assets/7a723797-8021-460c-9932-33b1ade2024e)
+![IAM user credentials](https://github.com/user-attachments/assets/0fb73c32-56fb-4ac1-8669-407f361e166b)
+![Restricted S3 bucket policy](https://github.com/user-attachments/assets/26460c0c-f4c0-465c-b5ff-995a0fc74de7)
+![Restricted url](https://github.com/user-attachments/assets/67230ba4-77a4-40a8-9e1c-0f1394b13e8a)
+![Enabled Server Access logging](https://github.com/user-attachments/assets/b84fd20e-0c5c-4fda-8043-86e429fac792)
+![Server Access logging successful](https://github.com/user-attachments/assets/08e4e8a0-497b-4107-a2b7-523814f50f8a)

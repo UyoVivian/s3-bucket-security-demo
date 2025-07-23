@@ -50,9 +50,8 @@ IAM user created: junior-analyst
 
 Attached full S3 access policy using this JSON:
 
-json
-Copy
-Edit
+```json
+
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -63,7 +62,8 @@ Edit
     }
   ]
 }
-This user could now manage and interact with all S3 buckets and objects
+```
+-This user could now manage and interact with all S3 buckets and objects
 
 ###  5. Secured the Bucket
 A. Removed Misconfiguration
@@ -76,9 +76,7 @@ B. Applied Least Privilege Policy
 
 New bucket policy:
 
-json
-Copy
-Edit
+```json
 {
   "Version": "2012-10-17",
   "Statement": [
@@ -96,7 +94,7 @@ Edit
     }
   ]
 }
-
+```
 
 ###  6. Enabled S3 Server Access Logging
 Created a new bucket: vivian-logs

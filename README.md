@@ -25,8 +25,6 @@ Demonstrate how insecure Amazon S3 buckets and IAM policies can lead to security
 - File uploaded: `sensitive.txt`
 - Purpose: simulate a sensitive asset (e.g., credentials or personal info)
 
-### Result: Anyone with the object URL could download the file
-
 ###  3. Simulated Misconfiguration (Public Access)
 - **Disabled block public access** on the bucket
 - Applied the following **public-read bucket policy**:
